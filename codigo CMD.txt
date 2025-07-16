@@ -1,0 +1,23 @@
+PROBAR CONEXION SQL AMAZON:
+
+ping chatbot-mysql-leao.cleaaoieaim3.us-east-2.rds.amazonaws.com
+
+
+CONECTARSE A SQL
+
+cd "C:\Program Files\MySQL\MySQL Server 8.0\bin" (cambiar a la version del SQL que tenga el ORDENADOR)
+
+ENTRAR A LA BASE DE DATOS:
+
+mysql.exe -h chatbot-mysql-leao.cleaaoieaim3.us-east-2.rds.amazonaws.com -P 3306 -u leao -p
+
+CONTRASEÑA:
+
+Leaofio12
+
+CODIGOS:
+
+USE db_origen;
+SHOW TABLES;
+SELECT * FROM users LIMIT 10;
+SELECT * FROM syllabi LIMIT 10;
